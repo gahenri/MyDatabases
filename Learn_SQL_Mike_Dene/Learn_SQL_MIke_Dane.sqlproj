@@ -56,5 +56,17 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo" />
+    <Folder Include="dbo\Tables" />
+    <Folder Include="Learn_Publish_Location" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Student.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Learn_SQL_MIke_Dane.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Learn_Publish_Location\Learn_SQL_MIke_Dane.publish.xml" />
   </ItemGroup>
 </Project>
