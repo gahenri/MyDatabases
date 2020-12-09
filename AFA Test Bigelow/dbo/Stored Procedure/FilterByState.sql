@@ -1,5 +1,5 @@
-﻿CREATE PROCEDURE [dbo].[spFilterByState]
-	@State nvarchar(2)
+﻿
+ALTER PROCEDURE [spFilterByState]	(@State nvarchar(2))
 AS
 BEGIN
 	SELECT State

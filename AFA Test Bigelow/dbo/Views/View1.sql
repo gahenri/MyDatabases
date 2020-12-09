@@ -1,4 +1,4 @@
 ﻿CREATE VIEW [dbo].[View1]
 	AS 
-	SELECT State 
+	SELECT State	
 	FROM dbo.RawData
