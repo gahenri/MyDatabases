@@ -1,4 +1,4 @@
-﻿CREATE VIEW [dbo].[DonorId]
+﻿CREATE VIEW [dbo].[ConsolidatedDonorId]
 	AS 
 	SELECT	[Donor ID]
 	FROM dbo.RawData
