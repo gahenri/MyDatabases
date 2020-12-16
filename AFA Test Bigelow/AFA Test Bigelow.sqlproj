@@ -63,7 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\RawData.sql" />
-    <Build Include="dbo\Views\View1.sql" />
+    <Build Include="dbo\Views\DonorID.sql" />
     <Build Include="dbo\Stored Procedure\FilterByState.sql" />
   </ItemGroup>
   <ItemGroup>
